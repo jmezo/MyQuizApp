@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    tools:context="com.example.android.myquizapp.QuizActivity"
+    android:background="@color/backgroundColor">
+    <ListView
+        android:id="@+id/quiz_listView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="@dimen/standard_padding">
+        <Button
+            android:id="@+id/show_result_button"
+            android:layout_centerVertical="true"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showResult"
+            android:text="@string/submit"
+            style="@style/ButtonStyle"/>
+        <TextView
+            android:id="@+id/score_text_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/score"
+            style="@style/ScoreStyleSmallest"/>
+        <TextView
+            android:id="@+id/score_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/score_text_textView"
+            tools:text="10/10"
+            style="@style/ScoreStyleSmaller"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

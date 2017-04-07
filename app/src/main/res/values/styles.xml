@@ -1,0 +1,44 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ScoreStyle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/scoreTextColor</item>
+    </style>
+    <style name="ScoreStyleSmaller" parent="ScoreStyle">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="ScoreStyleSmallest" parent="ScoreStyle">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="QuizQuestionStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/scoreTextColor</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:textColor">@color/basicButtonTextColor</item>
+        <item name="android:background">@drawable/custom_button_basic</item>
+    </style>
+
+    <style name="StartButtonStyle">
+        <item name="android:textColor">@color/startButtonTextColor</item>
+        <item name="android:background">@drawable/custom_button_start_screen</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CurrentQuestionStyle">
+
+    </style>
+
+
+</resources>

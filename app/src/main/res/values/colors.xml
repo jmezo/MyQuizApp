@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262F34</color>
+    <color name="colorPrimaryDark">#262F34</color>
+    <color name="colorAccent">#262F34</color>
+    <color name="backgroundColor">#F7E5D7</color>
+
+    <color name="startButtonColor1">#f34A4A</color>
+    <color name="startButtonColor2">#C74651</color>
+    <color name="startButtonTextColor">#615049</color>
+
+    <color name="basicButtonColor1">#615049</color>
+    <color name="basicButtonColor2">#262F34</color>
+    <color name="basicButtonTextColor">#ffffff</color>
+    <color name="basicButtonColorOutline">#65666b</color>
+
+    <color name="correctAnswer">#258039</color>
+    <color name="wrongAnswer">#cf3721</color>
+    <color name="black">#000000</color>
+    <color name="scoreTextColor">#262F34</color>
+    <color name="currentQuestionTextColor">#000000</color>
+</resources>
+<!--
+shadowy &dramatic:
+    slate
+    262F34
+    neon Red
+    f34A4A
+    crepe
+    F1D3BC
+    brownish gray
+    615049
+-->

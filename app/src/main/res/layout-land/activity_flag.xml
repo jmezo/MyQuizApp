@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/flags_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backgroundColor">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="@dimen/flag_img_width"
+            android:layout_height="@dimen/flag_img_height"
+            android:id="@+id/flag_image_view"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/standard_padding"
+            tools:src="@drawable/flag6"
+            android:contentDescription="@string/img_flag"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/standard_padding">
+        <Button
+            android:id="@+id/flag_choice1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttons_height"
+            android:layout_gravity="center_horizontal"
+            tools:text="this is a country"
+            android:layout_margin="@dimen/buttons_margin"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:id="@+id/flag_choice2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttons_height"
+            android:layout_gravity="center_horizontal"
+            tools:text="this also a country"
+            android:layout_marginBottom="@dimen/buttons_margin"
+            android:layout_marginRight="@dimen/buttons_margin"
+            android:layout_marginLeft="@dimen/buttons_margin"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:id="@+id/flag_choice3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttons_height"
+            android:layout_gravity="center_horizontal"
+            tools:text="some loooooooong country name"
+            android:layout_marginRight="@dimen/buttons_margin"
+            android:layout_marginLeft="@dimen/buttons_margin"
+            style="@style/ButtonStyle"/>
+        <Button
+            android:id="@+id/flag_choice4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttons_height"
+            android:layout_gravity="center_horizontal"
+            tools:text="yet another country"
+            android:layout_margin="@dimen/buttons_margin"
+            style="@style/ButtonStyle"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/current_question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                tools:text="10/10"/>
+            <TextView
+                android:id="@+id/current_question_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_above="@id/current_question"
+                android:text="@string/current_question"/>
+            <TextView
+                android:id="@+id/flag_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/score_text_view_margin_left"
+                android:layout_marginStart="@dimen/score_text_view_margin_left"
+                style="@style/ScoreStyleSmaller"
+                tools:text="Score: 4/10"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

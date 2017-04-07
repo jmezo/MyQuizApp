@@ -1,0 +1,657 @@
+<resources>
+    <string name="img_activity_start">start screen picture</string>
+    <string name="img_flag">the flags come here</string>
+    <string name="app_name">MyQuizApp</string>
+    <string name="button_to_quiz">advanced quiz</string>
+    <string name="button_to_flag">basic quiz</string>
+    <string name="current_question">Question</string>
+    <string name="score">Your score:</string>
+    <string name="reset">reset</string>
+    <string name="questions_5">5 questions</string>
+    <string name="questions_10">10 questions</string>
+    <string name="questions_20">20 questions</string>
+    <string name="questions_30">30 questions</string>
+    <string name="questions_40">40 questions</string>
+    <string name="questions_50">50 questions</string>
+    <string name="submit">submit</string>
+    <string-array name="question1">
+        <item>How many different colors are there on the flag of France?</item>
+        <item>3</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question2">
+        <item>How many different colors are there on the flag of Russia?</item>
+        <item>3</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question3">
+        <item>How many different colors are there on the flag of the Netherlands?</item>
+        <item>3</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question4">
+        <item>Which of these countries\' flags has a solid disc on its flag?</item>
+        <item>Japan</item>
+        <item>Myanmar</item>
+        <item>South Korea</item>
+        <item>China</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question5">
+        <item>Which of these countries\' flags features a gold lion?</item>
+        <item>Sri Lanka</item>
+        <item>Uganda</item>
+        <item>Sierra Leone</item>
+        <item>Zimbabwe</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question6">
+        <item>How many stars are there on the flag of the USA?</item>
+        <item>50</item>
+        <item>48</item>
+        <item>44</item>
+        <item>52</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question7">
+        <item>Which of these countries\' flags features a red maple leaf?</item>
+        <item>Canada</item>
+        <item>Lebanon</item>
+        <item>Eritrea</item>
+        <item>Malawi</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question8">
+        <item>Which of these countries\' flags features a double-headed eagle?</item>
+        <item>Albania</item>
+        <item>Romania</item>
+        <item>Cyprus</item>
+        <item>Slovakia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question9">
+        <item>How many different colors are there on the flag of South Africa?</item>
+        <item>6</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question10">
+        <item>Which of these is NOT a color on the flag of Chile?</item>
+        <item>yellow</item>
+        <item>blue</item>
+        <item>red</item>
+        <item>white</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question11">
+        <item>Which of these countries\' flags is called the \'Union Jack\'?</item>
+        <item>United Kingdom</item>
+        <item>Australia</item>
+        <item>United States</item>
+        <item>Germany</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question12">
+        <item>How many stripes are there on the flag of the USA?</item>
+        <item>13</item>
+        <item>15</item>
+        <item>9</item>
+        <item>11</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question13">
+        <item>What is the color of the star on the flag of Chile?</item>
+        <item>white</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>red</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question14">
+        <item>How many stars are there on the flag of China?</item>
+        <item>5</item>
+        <item>3</item>
+        <item>10</item>
+        <item>1</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question15">
+        <item>Which of these countries\' flags features a sword?</item>
+        <item>Saudi Arabia</item>
+        <item>Slovakia</item>
+        <item>Rwanda</item>
+        <item>Iran</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question16">
+        <item>Which of these countries\' flags features the text \'Ordem e Progresso\'?</item>
+        <item>Brazil</item>
+        <item>Saudi Arabia</item>
+        <item>Bolivia</item>
+        <item>Spain</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question17">
+        <item>The flag of the United Kingdom does NOT appear on which of these flags?</item>
+        <item>Malaysia</item>
+        <item>Australia</item>
+        <item>Anguilla</item>
+        <item>Fiji</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question18">
+        <item>What is the color of the triangle on the flag of the Philippines?</item>
+        <item>white</item>
+        <item>yellow</item>
+        <item>red</item>
+        <item>blue</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question19">
+        <item>Which of these countries\' flags has a solid disc on its flag?</item>
+        <item>Bangladesh</item>
+        <item>Nepal</item>
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question20">
+        <item>How many stripes are there on the flag of Cuba?</item>
+        <item>5</item>
+        <item>4</item>
+        <item>7</item>
+        <item>3</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question21">
+        <item>Which country\'s flag features a black trident?</item>
+        <item>Barbados</item>
+        <item>Samoa</item>
+        <item>Fiji</item>
+        <item>Haiti</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question22">
+        <item>How many different colors are there on the flag of Sudan?</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question23">
+        <item>Which country\'s flag has a dragon on it?</item>
+        <item>Bhutan</item>
+        <item>Laos</item>
+        <item>Burundi</item>
+        <item>Afghanistan</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question24">
+        <item>Which of these is NOT a color on the flag of Belgium?</item>
+        <item>white</item>
+        <item>black</item>
+        <item>red</item>
+        <item>yellow</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question25">
+        <item>Which of these countries\' flags features a golden crown?</item>
+        <item>Liechtenstein</item>
+        <item>Laos</item>
+        <item>Latvia</item>
+        <item>Lesotho</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question26">
+        <item>How many stars are there on the flag of New Zealand?</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question27">
+        <item>What is the color of the stars on the flag of Venezuela?</item>
+        <item>white</item>
+        <item>blue</item>
+        <item>red</item>
+        <item>yellow</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question28">
+        <item>Witch of these countries\' flags features the text \'Libertad 15 de Septiembre de 1821\'?</item>
+        <item>Guatemala</item>
+        <item>Nicaragua</item>
+        <item>Panama</item>
+        <item>El Salvador</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question29">
+        <item>How many different colors are there on the flag of Albania?</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="question30">
+        <item>Description: A vertical tricolor of blue, white and red</item>
+        <item>France</item>
+        <item>Netherlands</item>
+        <item>Italy</item>
+        <item>Ireland</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag1">
+        <item>flag1</item>
+        <item>Switzerland</item>
+        <item>Poland</item>
+        <item>Denmark</item>
+        <item>Monaco</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag2">
+        <item>flag2</item>
+        <item>Argentina</item>
+        <item>Uruguay</item>
+        <item>Nicaragua</item>
+        <item>El Salvador</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag3">
+        <item>flag3</item>
+        <item>Russia</item>
+        <item>Hungary</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag4">
+        <item>flag4</item>
+        <item>norway</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>Iceland</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag5">
+        <item>flag5</item>
+        <item>South Africa</item>
+        <item>Belgium</item>
+        <item>Iceland</item>
+        <item>Egypt</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag6">
+        <item>flag6</item>
+        <item>Pakistan</item>
+        <item>Nepal</item>
+        <item>Bangladesh</item>
+        <item>India</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag7">
+        <item>flag7</item>
+        <item>Greece</item>
+        <item>Estonia</item>
+        <item>Nepal</item>
+        <item>Belgium</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag8">
+        <item>flag8</item>
+        <item>Brazil </item>
+        <item>Argentina</item>
+        <item>Venezuela</item>
+        <item>Colombia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag9">
+        <item>flag9</item>
+        <item>Canada</item>
+        <item>Lebanon</item>
+        <item>Lithuania</item>
+        <item>Finland</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag10">
+        <item>flag10</item>
+        <item>Jamaica</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>Guatemala</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag11">
+        <item>flag11</item>
+        <item>Mexico</item>
+        <item>Belarus</item>
+        <item>Ireland</item>
+        <item>Honduras</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag12">
+        <item>flag12</item>
+        <item>China</item>
+        <item>Cambodia</item>
+        <item>Vietnam</item>
+        <item>Russia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag13">
+        <item>flag13</item>
+        <item>Panama</item>
+        <item>The Netherlands</item>
+        <item>Malaysia</item>
+        <item>Liberia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag14">
+        <item>flag14</item>
+        <item>The Netherlands</item>
+        <item>Denmark</item>
+        <item>Portugal</item>
+        <item>Belgium</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag15">
+        <item>flag15</item>
+        <item>Sweden</item>
+        <item>Finland</item>
+        <item>Norway</item>
+        <item>Denmark</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag16">
+        <item>flag16</item>
+        <item>France</item>
+        <item>Luxembourg</item>
+        <item>The Netherlands</item>
+        <item>Serbia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag17">
+        <item>flag17</item>
+        <item>United Kingdom</item>
+        <item>Spain</item>
+        <item>Portugal</item>
+        <item>Greece</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag18">
+        <item>flag18</item>
+        <item>Italy</item>
+        <item>Greece</item>
+        <item>Portugal</item>
+        <item>Ireland</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag19">
+        <item>flag10</item>
+        <item>Portugal</item>
+        <item>Bulgaria</item>
+        <item>Austria</item>
+        <item>Romania</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag20">
+        <item>flag20</item>
+        <item>Japan</item>
+        <item>Taiwan</item>
+        <item>China</item>
+        <item>North Korea</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag21">
+        <item>flag21</item>
+        <item>Denmark</item>
+        <item>Finland</item>
+        <item>Norway</item>
+        <item>Iceland</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag22">
+        <item>flag22</item>
+        <item>Morocco</item>
+        <item>Cambodia</item>
+        <item>Albania</item>
+        <item>Israel</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag23">
+        <item>flag23</item>
+        <item>Peru</item>
+        <item>Somalia</item>
+        <item>Bolivia</item>
+        <item>Sudan</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag24">
+        <item>flag24</item>
+        <item>Poland</item>
+        <item>Thailand</item>
+        <item>Indonesia</item>
+        <item>Austria</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag25">
+        <item>flag25</item>
+        <item>Mongolia</item>
+        <item>Cambodia</item>
+        <item>Nepal</item>
+        <item>North Korea</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag26">
+        <item>flag26</item>
+        <item>Nigeria</item>
+        <item>Malaysia</item>
+        <item>Chad</item>
+        <item>Malawi</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag27">
+        <item>flag27</item>
+        <item>Austria</item>
+        <item>Botswana</item>
+        <item>Poland</item>
+        <item>Moldova</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag28">
+        <item>flag28</item>
+        <item>Papua New Guinea</item>
+        <item>Rep. of the Congo</item>
+        <item>Paraguay</item>
+        <item>Estonia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag29">
+        <item>flag29</item>
+        <item>Somalia</item>
+        <item>Togo</item>
+        <item>Vietnam</item>
+        <item>Panama</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag30">
+        <item>flag30</item>
+        <item>Saudi Arabia</item>
+        <item>Oman</item>
+        <item>Jordan</item>
+        <item>Algeria</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag31">
+        <item>flag31</item>
+        <item>Tunisia</item>
+        <item>Syria</item>
+        <item>Iraq</item>
+        <item>Armenia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag32">
+        <item>flag32</item>
+        <item>Syria</item>
+        <item>Kuwait</item>
+        <item>United Arab Emirates</item>
+        <item>Iraq</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag33">
+        <item>flag33</item>
+        <item>Lebanon</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Canada</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag34">
+        <item>flag34</item>
+        <item>Hungary</item>
+        <item>Iran</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag35">
+        <item>flag35</item>
+        <item>Israel</item>
+        <item>Morocco</item>
+        <item>Australia</item>
+        <item>Ghana</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag36">
+        <item>flag36</item>
+        <item>New Zealand</item>
+        <item>Thailand</item>
+        <item>Australia</item>
+        <item>Sri Lanka</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag37">
+        <item>flag37</item>
+        <item>Paraguay</item>
+        <item>Ukraine</item>
+        <item>Togo</item>
+        <item>Bolivia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag38">
+        <item>flag38</item>
+        <item>Uzbekistan</item>
+        <item>Turkmenistan</item>
+        <item>Kazakhstan</item>
+        <item>Tajikistan</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag39">
+        <item>flag39</item>
+        <item>Botswana</item>
+        <item>Zimbabwe</item>
+        <item>Sierra Leone</item>
+        <item>Mali</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag40">
+        <item>flag40</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Croatia</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag41">
+        <item>flag41</item>
+        <item>Belarus</item>
+        <item>Bhutan</item>
+        <item>Latvia</item>
+        <item>Moldova</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag42">
+        <item>flag42</item>
+        <item>Latvia</item>
+        <item>Belarus</item>
+        <item>Estonia</item>
+        <item>Lithuania</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag43">
+        <item>flag43</item>
+        <item>Rep. of the Congo</item>
+        <item>Tanzania</item>
+        <item>Malawi</item>
+        <item>Zimbabwe</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag44">
+        <item>flag44</item>
+        <item>Republic of Macedonia</item>
+        <item>Guinea-Bissau</item>
+        <item>Nepal</item>
+        <item>Senegal</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag45">
+        <item>flag45</item>
+        <item>Brunei</item>
+        <item>Belize</item>
+        <item>Burundi</item>
+        <item>Benin</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag46">
+        <item>flag46</item>
+        <item>Liechtenstein</item>
+        <item>San Marino</item>
+        <item>Luxembourg</item>
+        <item>Andorra</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag47">
+        <item>flag47</item>
+        <item>Eritrea</item>
+        <item>Niger</item>
+        <item>Madagascar</item>
+        <item>Burkina Faso</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag48">
+        <item>flag48</item>
+        <item>Liberia</item>
+        <item>Nepal</item>
+        <item>Fiji</item>
+        <item>Malaysia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag49">
+        <item>flag49</item>
+        <item>Libya</item>
+        <item>Afghanistan</item>
+        <item>Bangladesh</item>
+        <item>Namibia</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="flag50">
+        <item>flag50</item>
+        <item>Mauritania</item>
+        <item>Benin</item>
+        <item>Zambia</item>
+        <item>Nicaragua</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_padding">10dp</dimen>
+    <dimen name="buttons_margin">5dp</dimen>
+    <dimen name="buttons_height">50dp</dimen>
+    <dimen name="buttons_width">300dp</dimen>
+    <dimen name="score_text_view_padding_top">7dp</dimen>
+    <dimen name="score_text_view_margin_left">30dp</dimen>
+    <dimen name="flag_img_width">350dp</dimen>
+    <dimen name="flag_img_height">200dp</dimen>
+    <dimen name="flag_img_padding">20dp</dimen>
+    <dimen name="quiz_question_padding">20dp</dimen>
+</resources>

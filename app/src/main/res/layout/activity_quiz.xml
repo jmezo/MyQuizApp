@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.myquizapp.QuizActivity"
+    android:background="@color/backgroundColor">
+    <ListView
+        android:id="@+id/quiz_listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0"
+        android:background="@color/basicButtonColor1"/>
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/standard_padding">
+        <Button
+            android:id="@+id/show_result_button"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showResult"
+            android:text="@string/submit"
+            style="@style/ButtonStyle"/>
+        <TextView
+            android:id="@+id/score_text_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/score"
+            style="@style/ScoreStyleSmaller"/>
+        <TextView
+            android:id="@+id/score_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/score_text_textView"
+            android:layout_toEndOf="@id/score_text_textView"
+            tools:text="10/10"
+            style="@style/ScoreStyleSmaller"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

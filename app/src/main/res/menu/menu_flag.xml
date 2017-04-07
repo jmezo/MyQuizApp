@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FlagActivity">
+    <item
+        android:id="@+id/action_reset"
+        android:title="@string/reset"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_set_question_number_5"
+        android:title="@string/questions_5"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_question_number_10"
+        android:title="@string/questions_10"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_question_number_20"
+        android:title="@string/questions_20"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_question_number_30"
+        android:title="@string/questions_30"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_question_number_40"
+        android:title="@string/questions_40"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_set_question_number_50"
+        android:title="@string/questions_50"
+        app:showAsAction="never" />
+
+</menu>
