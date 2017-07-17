@@ -18,7 +18,7 @@
     <string name="edit_text_text_view">write &quot; edittext &quot; below</string>
     <string name="checkbox_text_view">What do you see below?</string>
     <string name="checkbox1">checkboxes</string>
-    <string name="checkbox2">yep, these are checkboxes</string>
+    <string name="checkbox2">yep, these are definitely checkboxes</string>
     <string name="checkbox3">not checkboxes</string>
     <string name="required_quiz">Required Changes Quiz</string>
 
