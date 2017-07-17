@@ -21,8 +21,14 @@ public class StartActivity extends AppCompatActivity {
         Intent i = new Intent(StartActivity.this, QuizActivity.class);
         startActivity(i);
     }
+
     public void goToFlag(View view){
         Intent i = new Intent(StartActivity.this, FlagActivity.class);
+        startActivity(i);
+    }
+
+    public void goToRequired(View view){
+        Intent i = new Intent(StartActivity.this, RequiredChangesActivity.class);
         startActivity(i);
     }
 }

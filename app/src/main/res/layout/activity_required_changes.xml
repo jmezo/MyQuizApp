@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.android.myquizapp.RequiredChangesActivity">
+    <TextView
+        android:text="@string/checkbox_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:text="@string/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:text="@string/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/checkbox3"
+        android:text="@string/checkbox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/edit_text_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="@string/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="submit"/>
+</LinearLayout>

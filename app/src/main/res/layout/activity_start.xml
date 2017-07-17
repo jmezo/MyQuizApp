@@ -37,6 +37,14 @@
                 android:onClick="goToQuiz"
                 android:layout_margin="@dimen/buttons_margin"
                 style="@style/StartButtonStyle"/>
+            <Button
+                android:id="@+id/required_button"
+                android:layout_width="@dimen/buttons_width"
+                android:layout_height="@dimen/buttons_height"
+                android:text="@string/required_quiz"
+                android:onClick="goToRequired"
+                android:layout_margin="@dimen/buttons_margin"
+                style="@style/StartButtonStyle"/>
         </LinearLayout>
 
     </RelativeLayout>

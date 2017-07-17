@@ -14,6 +14,14 @@
     <string name="questions_40">40 questions</string>
     <string name="questions_50">50 questions</string>
     <string name="submit">submit</string>
+
+    <string name="edit_text_text_view">write &quot; edittext &quot; below</string>
+    <string name="checkbox_text_view">What do you see below?</string>
+    <string name="checkbox1">checkboxes</string>
+    <string name="checkbox2">yep, these are checkboxes</string>
+    <string name="checkbox3">not checkboxes</string>
+    <string name="required_quiz">Required Changes Quiz</string>
+
     <string-array name="question1">
         <item>How many different colors are there on the flag of France?</item>
         <item>3</item>
